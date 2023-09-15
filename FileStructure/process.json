@@ -1,0 +1,899 @@
+[
+    [
+      {
+        "dex": "sushiswap",
+        "key": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7",
+        "pairAddress": "0xf69e93771F11AECd8E554aA165C3Fe7fd811530c",
+        "pairSymbol": "WMATIC/GHST",
+        "rawReserve0": "103047386367509175394332",
+        "rawReserve1": "93060246476975074995865",
+        "reserve0": "103047386367509175394332",
+        "reserve1": "93060246476975074995865",
+        "tokenA": {
+          "address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+          "decimal": "18",
+          "decimalValue": "1000000000000000000",
+          "name": "Wrapped Matic",
+          "symbol": "WMATIC"
+        },
+        "tokenB": {
+          "address": "0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7",
+          "decimal": "18",
+          "decimalValue": "1000000000000000000",
+          "name": "Aavegotchi GHST Token (PoS)",
+          "symbol": "GHST"
+        },
+        "liquidity": "170795.1616299305881009280669",
+        "tokenAPrice": "0.7922",
+        "tokenBPrice": "0.9581"
+      },
+      {
+        "dex": "quickswap",
+        "key": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7",
+        "pairAddress": "0x1366c529a133D4153211410126F12Aa4e31AaAc5",
+        "pairSymbol": "WMATIC/GHST",
+        "rawReserve0": "913165478024254058429",
+        "rawReserve1": "830554155498341378225",
+        "reserve0": "913165478024254058429",
+        "reserve1": "830554155498341378225",
+        "tokenA": {
+          "address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+          "decimal": "18",
+          "decimalValue": "1000000000000000000",
+          "name": "Wrapped Matic",
+          "symbol": "WMATIC"
+        },
+        "tokenB": {
+          "address": "0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7",
+          "decimal": "18",
+          "decimalValue": "1000000000000000000",
+          "name": "Aavegotchi GHST Token (PoS)",
+          "symbol": "GHST"
+        },
+        "liquidity": "1519.1636280737749395648263",
+        "tokenAPrice": "0.7922",
+        "tokenBPrice": "0.9581"
+      }
+    ],
+    [
+      {
+        "dex": "sushiswap",
+        "key": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0xa3Fa99A148fA48D14Ed51d610c367C61876997F1",
+        "pairAddress": "0x8ceed6619aeFFD5476315b90eb081485dA2aEbCA",
+        "pairSymbol": "USDC/miMATIC",
+        "rawReserve0": "2615236423",
+        "rawReserve1": "2633387708771711189771",
+        "reserve0": "2615236423",
+        "reserve1": "2633387708771711189771",
+        "tokenA": {
+          "address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+          "decimal": "6",
+          "decimalValue": "1000000",
+          "name": "USD Coin (PoS)",
+          "symbol": "USDC"
+        },
+        "tokenB": {
+          "address": "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1",
+          "decimal": "18",
+          "decimalValue": "1000000000000000000",
+          "name": "miMATIC",
+          "symbol": "miMATIC"
+        },
+        "liquidity": "5230.9622828371690136097633",
+        "tokenAPrice": "1.0010",
+        "tokenBPrice": "0.9923"
+      },
+      {
+        "dex": "quickswap",
+        "key": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0xa3Fa99A148fA48D14Ed51d610c367C61876997F1",
+        "pairAddress": "0x160532D2536175d65C03B97b0630A9802c274daD",
+        "pairSymbol": "USDC/miMATIC",
+        "rawReserve0": "3107152651140",
+        "rawReserve1": "3116956791258856374605542",
+        "reserve0": "3107152651140",
+        "reserve1": "3116956791258856374605542",
+        "tokenA": {
+          "address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+          "decimal": "6",
+          "decimalValue": "1000000",
+          "name": "USD Coin (PoS)",
+          "symbol": "USDC"
+        },
+        "tokenB": {
+          "address": "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1",
+          "decimal": "18",
+          "decimalValue": "1000000000000000000",
+          "name": "miMATIC",
+          "symbol": "miMATIC"
+        },
+        "liquidity": "6203216.0277573031805210793266",
+        "tokenAPrice": "1.0010",
+        "tokenBPrice": "0.9923"
+      }
+    ],
+    [
+      {
+        "dex": "sushiswap",
+        "key": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619/0x840195888Db4D6A99ED9F73FcD3B225Bb3cB1A79",
+        "pairAddress": "0x1bF9805B40a5f69c7d0f9E5d1Ab718642203c652",
+        "pairSymbol": "WETH/SX",
+        "rawReserve0": "1200318559996344366",
+        "rawReserve1": "20583276082955084288731",
+        "reserve0": "1200318559996344366",
+        "reserve1": "20583276082955084288731",
+        "tokenA": {
+          "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+          "decimal": "18",
+          "decimalValue": "1000000000000000000",
+          "name": "Wrapped Ether",
+          "symbol": "WETH"
+        },
+        "tokenB": {
+          "address": "0x840195888Db4D6A99ED9F73FcD3B225Bb3cB1A79",
+          "decimal": "18",
+          "decimalValue": "1000000000000000000",
+          "name": "SportX (PoS)",
+          "symbol": "SX"
+        },
+        "liquidity": "4378.3368020442120273368509",
+        "tokenAPrice": "1865.9500",
+        "tokenBPrice": "0.1039"
+      },
+      {
+        "dex": "quickswap",
+        "key": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619/0x840195888Db4D6A99ED9F73FcD3B225Bb3cB1A79",
+        "pairAddress": "0x3Ff616172e87429A037e4B42843FB11bF0C945bB",
+        "pairSymbol": "WETH/SX",
+        "rawReserve0": "4351848462866412677",
+        "rawReserve1": "74482418408853529092274",
+        "reserve0": "4351848462866412677",
+        "reserve1": "74482418408853529092274",
+        "tokenA": {
+          "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+          "decimal": "18",
+          "decimalValue": "1000000000000000000",
+          "name": "Wrapped Ether",
+          "symbol": "WETH"
+        },
+        "tokenB": {
+          "address": "0x840195888Db4D6A99ED9F73FcD3B225Bb3cB1A79",
+          "decimal": "18",
+          "decimalValue": "1000000000000000000",
+          "name": "SportX (PoS)",
+          "symbol": "SX"
+        },
+        "liquidity": "15859.0549119654644073354186",
+        "tokenAPrice": "1865.9500",
+        "tokenBPrice": "0.1039"
+      }
+    ],
+    [
+      {
+        "dex": "sushiswap",
+        "key": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0x6AE7Dfc73E0dDE2aa99ac063DcF7e8A63265108c",
+        "pairAddress": "0xFbaE8e2D04a67C10047D83ee9B8AeFFE7F6EA3f4",
+        "pairSymbol": "USDC/JPYC",
+        "rawReserve0": "3537812982",
+        "rawReserve1": "422638961901455697945019",
+        "reserve0": "3537812982",
+        "reserve1": "422638961901455697945019",
+        "tokenA": {
+          "address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+          "decimal": "6",
+          "decimalValue": "1000000",
+          "name": "USD Coin (PoS)",
+          "symbol": "USDC"
+        },
+        "tokenB": {
+          "address": "0x6AE7Dfc73E0dDE2aa99ac063DcF7e8A63265108c",
+          "decimal": "18",
+          "decimalValue": "1000000000000000000",
+          "name": "JPY Coin (PoS)",
+          "symbol": "JPYC"
+        },
+        "liquidity": "6834.3968848313544439711482",
+        "tokenAPrice": "1.0000",
+        "tokenBPrice": "0.0078"
+      },
+      {
+        "dex": "quickswap",
+        "key": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0x6AE7Dfc73E0dDE2aa99ac063DcF7e8A63265108c",
+        "pairAddress": "0x205995421C72Dc223F36BbFad78B66EEa72d2677",
+        "pairSymbol": "USDC/JPYC",
+        "rawReserve0": "24534467893",
+        "rawReserve1": "2946840165095877902464285",
+        "reserve0": "24534467893",
+        "reserve1": "2946840165095877902464285",
+        "tokenA": {
+          "address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+          "decimal": "6",
+          "decimalValue": "1000000",
+          "name": "USD Coin (PoS)",
+          "symbol": "USDC"
+        },
+        "tokenB": {
+          "address": "0x6AE7Dfc73E0dDE2aa99ac063DcF7e8A63265108c",
+          "decimal": "18",
+          "decimalValue": "1000000000000000000",
+          "name": "JPY Coin (PoS)",
+          "symbol": "JPYC"
+        },
+        "liquidity": "47519.821180747847639221423",
+        "tokenAPrice": "1.0000",
+        "tokenBPrice": "0.0078"
+      }
+    ],
+    [
+      {
+        "dex": "sushiswap",
+        "key": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619/0xA1c57f48F0Deb89f569dFbE6E2B7f46D33606fD4",
+        "pairAddress": "0xc48AE82ca34C63887b975F20ABA91a38f2a900B8",
+        "pairSymbol": "WETH/MANA",
+        "rawReserve0": "28378946822637394057",
+        "rawReserve1": "100228625561957966312932",
+        "reserve0": "28378946822637394057",
+        "reserve1": "100228625561957966312932",
+        "tokenA": {
+          "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+          "decimal": "18",
+          "decimalValue": "1000000000000000000",
+          "name": "Wrapped Ether",
+          "symbol": "WETH"
+        },
+        "tokenB": {
+          "address": "0xA1c57f48F0Deb89f569dFbE6E2B7f46D33606fD4",
+          "decimal": "18",
+          "decimalValue": "1000000000000000000",
+          "name": "(PoS) Decentraland MANA",
+          "symbol": "MANA"
+        },
+        "liquidity": "97181.363272910124904691888",
+        "tokenAPrice": "1865.1300",
+        "tokenBPrice": "0.4415"
+      },
+      {
+        "dex": "quickswap",
+        "key": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619/0xA1c57f48F0Deb89f569dFbE6E2B7f46D33606fD4",
+        "pairAddress": "0x814B6c10Bf752bBbea7Bd68e5e65dC28B4F45982",
+        "pairSymbol": "WETH/MANA",
+        "rawReserve0": "2366907946730369811",
+        "rawReserve1": "8543273508438191911641",
+        "reserve0": "2366907946730369811",
+        "reserve1": "8543273508438191911641",
+        "tokenA": {
+          "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+          "decimal": "18",
+          "decimalValue": "1000000000000000000",
+          "name": "Wrapped Ether",
+          "symbol": "WETH"
+        },
+        "tokenB": {
+          "address": "0xA1c57f48F0Deb89f569dFbE6E2B7f46D33606fD4",
+          "decimal": "18",
+          "decimalValue": "1000000000000000000",
+          "name": "(PoS) Decentraland MANA",
+          "symbol": "MANA"
+        },
+        "liquidity": "8186.4462726606763745799315",
+        "tokenAPrice": "1865.1300",
+        "tokenBPrice": "0.4415"
+      }
+    ],
+    [
+      {
+        "dex": "sushiswap",
+        "key": "0x46F48FbdedAa6F5500993BEDE9539ef85F4BeE8e/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "pairAddress": "0x2110c882c446357Ac38e36Cae03DF1578EB390b2",
+        "pairSymbol": "ARIA20/WETH",
+        "rawReserve0": "27629081703914673019831",
+        "rawReserve1": "4557017286909371337",
+        "reserve0": "27629081703914673019831",
+        "reserve1": "4557017286909371337",
+        "tokenA": {
+          "address": "0x46F48FbdedAa6F5500993BEDE9539ef85F4BeE8e",
+          "decimal": "18",
+          "decimalValue": "1000000000000000000",
+          "name": "ARIANEE (PoS)",
+          "symbol": "ARIA20"
+        },
+        "tokenB": {
+          "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+          "decimal": "18",
+          "decimalValue": "1000000000000000000",
+          "name": "Wrapped Ether",
+          "symbol": "WETH"
+        },
+        "liquidity": "16495.2858974461821337179014",
+        "tokenAPrice": "0.2894",
+        "tokenBPrice": "1865.1300"
+      },
+      {
+        "dex": "quickswap",
+        "key": "0x46F48FbdedAa6F5500993BEDE9539ef85F4BeE8e/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "pairAddress": "0xD88810F3FE698862669448Dce29808B242B9A1bC",
+        "pairSymbol": "ARIA20/WETH",
+        "rawReserve0": "6600276609297569909438",
+        "rawReserve1": "1094454678453333024",
+        "reserve0": "6600276609297569909438",
+        "reserve1": "1094454678453333024",
+        "tokenA": {
+          "address": "0x46F48FbdedAa6F5500993BEDE9539ef85F4BeE8e",
+          "decimal": "18",
+          "decimalValue": "1000000000000000000",
+          "name": "ARIANEE (PoS)",
+          "symbol": "ARIA20"
+        },
+        "tokenB": {
+          "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+          "decimal": "18",
+          "decimalValue": "1000000000000000000",
+          "name": "Wrapped Ether",
+          "symbol": "WETH"
+        },
+        "liquidity": "3951.4203051543817548444772",
+        "tokenAPrice": "0.2894",
+        "tokenBPrice": "1865.1300"
+      }
+    ],
+    [
+      {
+        "dex": "sushiswap",
+        "key": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619/0xb33EaAd8d922B1083446DC23f610c2567fB5180f",
+        "pairAddress": "0xc56060aF39152C614fA67E169c0DD1809a886e4F",
+        "pairSymbol": "WETH/UNI",
+        "rawReserve0": "361627511514121547",
+        "rawReserve1": "127083880333125657084",
+        "reserve0": "361627511514121547",
+        "reserve1": "127083880333125657084",
+        "tokenA": {
+          "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+          "decimal": "18",
+          "decimalValue": "1000000000000000000",
+          "name": "Wrapped Ether",
+          "symbol": "WETH"
+        },
+        "tokenB": {
+          "address": "0xb33EaAd8d922B1083446DC23f610c2567fB5180f",
+          "decimal": "18",
+          "decimalValue": "1000000000000000000",
+          "name": "Uniswap (PoS)",
+          "symbol": "UNI"
+        },
+        "liquidity": "1271.77655811602410925091",
+        "tokenAPrice": "1865.1300",
+        "tokenBPrice": "4.7000"
+      },
+      {
+        "dex": "quickswap",
+        "key": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619/0xb33EaAd8d922B1083446DC23f610c2567fB5180f",
+        "pairAddress": "0xF7135272a5584Eb116f5a77425118a8B4A2ddfDb",
+        "pairSymbol": "WETH/UNI",
+        "rawReserve0": "4937982481543183787",
+        "rawReserve1": "1675533714974126686027",
+        "reserve0": "4937982481543183787",
+        "reserve1": "1675533714974126686027",
+        "tokenA": {
+          "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+          "decimal": "18",
+          "decimalValue": "1000000000000000000",
+          "name": "Wrapped Ether",
+          "symbol": "WETH"
+        },
+        "tokenB": {
+          "address": "0xb33EaAd8d922B1083446DC23f610c2567fB5180f",
+          "decimal": "18",
+          "decimalValue": "1000000000000000000",
+          "name": "Uniswap (PoS)",
+          "symbol": "UNI"
+        },
+        "liquidity": "17084.98772617903380097421",
+        "tokenAPrice": "1865.1300",
+        "tokenBPrice": "4.7000"
+      }
+    ],
+    [
+      {
+        "dex": "sushiswap",
+        "key": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0xD86b5923F3AD7b585eD81B448170ae026c65ae9a",
+        "pairAddress": "0x85dE135fF062Df790A5f20B79120f17D3da63b2d",
+        "pairSymbol": "USDC/IRON",
+        "rawReserve0": "782474027",
+        "rawReserve1": "6897129498916356049983845",
+        "reserve0": "782474027",
+        "reserve1": "6897129498916356049983845",
+        "tokenA": {
+          "address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+          "decimal": "6",
+          "decimalValue": "1000000",
+          "name": "USD Coin (PoS)",
+          "symbol": "USDC"
+        },
+        "tokenB": {
+          "address": "0xD86b5923F3AD7b585eD81B448170ae026c65ae9a",
+          "decimal": "18",
+          "decimalValue": "1000000000000000000",
+          "name": "IRON Stablecoin",
+          "symbol": "IRON"
+        },
+        "liquidity": "1472.9694509186356049983845",
+        "tokenAPrice": "1.0010",
+        "tokenBPrice": "0.0001"
+      },
+      {
+        "dex": "quickswap",
+        "key": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0xD86b5923F3AD7b585eD81B448170ae026c65ae9a",
+        "pairAddress": "0x2Bbe0F728f4d5821F84eeE0432D2A4be7C0cB7Fc",
+        "pairSymbol": "USDC/IRON",
+        "rawReserve0": "914498066",
+        "rawReserve1": "7902821498891200838933037",
+        "reserve0": "914498066",
+        "reserve1": "7902821498891200838933037",
+        "tokenA": {
+          "address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+          "decimal": "6",
+          "decimalValue": "1000000",
+          "name": "USD Coin (PoS)",
+          "symbol": "USDC"
+        },
+        "tokenB": {
+          "address": "0xD86b5923F3AD7b585eD81B448170ae026c65ae9a",
+          "decimal": "18",
+          "decimalValue": "1000000000000000000",
+          "name": "IRON Stablecoin",
+          "symbol": "IRON"
+        },
+        "liquidity": "1705.6947139551200838933037",
+        "tokenAPrice": "1.0010",
+        "tokenBPrice": "0.0001"
+      }
+    ],
+    [
+      {
+        "dex": "sushiswap",
+        "key": "0x1221591c1d77A9c334aBb0fe530ae6EE3aF51Af9/0x61dAECaB65EE2A1D5b6032df030f3fAA3d116Aa7",
+        "pairAddress": "0xf5a739B544b392a3ffF893a91c53e7408116dFc5",
+        "pairSymbol": "AXMATIC/DMAGIC",
+        "rawReserve0": "123588098189691948964316",
+        "rawReserve1": "813728470837208177355859",
+        "reserve0": "123588098189691948964316",
+        "reserve1": "813728470837208177355859",
+        "tokenA": {
+          "address": "0x1221591c1d77A9c334aBb0fe530ae6EE3aF51Af9",
+          "decimal": "18",
+          "decimalValue": "1000000000000000000",
+          "name": "axMatic",
+          "symbol": "AXMATIC"
+        },
+        "tokenB": {
+          "address": "0x61dAECaB65EE2A1D5b6032df030f3fAA3d116Aa7",
+          "decimal": "18",
+          "decimalValue": "1000000000000000000",
+          "name": "Dark Magic",
+          "symbol": "DMAGIC"
+        },
+        "liquidity": "99112.1277479719560019436262",
+        "tokenAPrice": 0,
+        "tokenBPrice": "0.1218"
+      },
+      {
+        "dex": "quickswap",
+        "key": "0x1221591c1d77A9c334aBb0fe530ae6EE3aF51Af9/0x61dAECaB65EE2A1D5b6032df030f3fAA3d116Aa7",
+        "pairAddress": "0xFD2e00312d07207b8F1B65A5BF6Df5C9F196A132",
+        "pairSymbol": "AXMATIC/DMAGIC",
+        "rawReserve0": "39271030442687669583693",
+        "rawReserve1": "258805344463671186602583",
+        "reserve0": "39271030442687669583693",
+        "reserve1": "258805344463671186602583",
+        "tokenA": {
+          "address": "0x1221591c1d77A9c334aBb0fe530ae6EE3aF51Af9",
+          "decimal": "18",
+          "decimalValue": "1000000000000000000",
+          "name": "axMatic",
+          "symbol": "AXMATIC"
+        },
+        "tokenB": {
+          "address": "0x61dAECaB65EE2A1D5b6032df030f3fAA3d116Aa7",
+          "decimal": "18",
+          "decimalValue": "1000000000000000000",
+          "name": "Dark Magic",
+          "symbol": "DMAGIC"
+        },
+        "liquidity": "31522.4909556751505281946094",
+        "tokenAPrice": 0,
+        "tokenBPrice": "0.1218"
+      }
+    ],
+    [
+      {
+        "dex": "sushiswap",
+        "key": "0x14743E1c6f812154F7ecc980D890F0F5234103e7/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+        "pairAddress": "0x9fACDD2B79fDCA9978945BED0Cc35FcFe32B45b4",
+        "pairSymbol": "APYS/USDC",
+        "rawReserve0": "186062479631380754273130",
+        "rawReserve1": "1708486268",
+        "reserve0": "186062479631380754273130",
+        "reserve1": "1708486268",
+        "tokenA": {
+          "address": "0x14743E1c6f812154F7ecc980D890F0F5234103e7",
+          "decimal": "18",
+          "decimalValue": "1000000000000000000",
+          "name": "APYSwap",
+          "symbol": "APYS"
+        },
+        "tokenB": {
+          "address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+          "decimal": "6",
+          "decimalValue": "1000000",
+          "name": "USD Coin (PoS)",
+          "symbol": "USDC"
+        },
+        "liquidity": "1710.194754268",
+        "tokenAPrice": 0,
+        "tokenBPrice": "1.0010"
+      },
+      {
+        "dex": "quickswap",
+        "key": "0x14743E1c6f812154F7ecc980D890F0F5234103e7/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+        "pairAddress": "0x683d2685Ebfc0C4d13D0F6e682808F5F4F534F00",
+        "pairSymbol": "APYS/USDC",
+        "rawReserve0": "190006124080306980760368",
+        "rawReserve1": "1742627455",
+        "reserve0": "190006124080306980760368",
+        "reserve1": "1742627455",
+        "tokenA": {
+          "address": "0x14743E1c6f812154F7ecc980D890F0F5234103e7",
+          "decimal": "18",
+          "decimalValue": "1000000000000000000",
+          "name": "APYSwap",
+          "symbol": "APYS"
+        },
+        "tokenB": {
+          "address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+          "decimal": "6",
+          "decimalValue": "1000000",
+          "name": "USD Coin (PoS)",
+          "symbol": "USDC"
+        },
+        "liquidity": "1744.370082455",
+        "tokenAPrice": 0,
+        "tokenBPrice": "1.0010"
+      }
+    ],
+    [
+      {
+        "dex": "sushiswap",
+        "key": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619/0x85955046DF4668e1DD369D2DE9f3AEB98DD2A369",
+        "pairAddress": "0xCb3716006b3B468624b2A246505ec0d22673e077",
+        "pairSymbol": "WETH/DPI",
+        "rawReserve0": "562897393669533465",
+        "rawReserve1": "14722070238525840277",
+        "reserve0": "562897393669533465",
+        "reserve1": "14722070238525840277",
+        "tokenA": {
+          "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+          "decimal": "18",
+          "decimalValue": "1000000000000000000",
+          "name": "Wrapped Ether",
+          "symbol": "WETH"
+        },
+        "tokenB": {
+          "address": "0x85955046DF4668e1DD369D2DE9f3AEB98DD2A369",
+          "decimal": "18",
+          "decimalValue": "1000000000000000000",
+          "name": "DefiPulse Index (PoS)",
+          "symbol": "DPI"
+        },
+        "liquidity": "1988.97254034204803694606",
+        "tokenAPrice": "1869.2700",
+        "tokenBPrice": "63.6300"
+      },
+      {
+        "dex": "quickswap",
+        "key": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619/0x85955046DF4668e1DD369D2DE9f3AEB98DD2A369",
+        "pairAddress": "0x9F77Ef7175032867d26E75D2fA267A6299E3fb57",
+        "pairSymbol": "WETH/DPI",
+        "rawReserve0": "5492297670249192352",
+        "rawReserve1": "144168118263154032928",
+        "reserve0": "5492297670249192352",
+        "reserve1": "144168118263154032928",
+        "tokenA": {
+          "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+          "decimal": "18",
+          "decimalValue": "1000000000000000000",
+          "name": "Wrapped Ether",
+          "symbol": "WETH"
+        },
+        "tokenB": {
+          "address": "0x85955046DF4668e1DD369D2DE9f3AEB98DD2A369",
+          "decimal": "18",
+          "decimalValue": "1000000000000000000",
+          "name": "DefiPulse Index (PoS)",
+          "symbol": "DPI"
+        },
+        "liquidity": "19440.00463115119890303168",
+        "tokenAPrice": "1869.2700",
+        "tokenBPrice": "63.6300"
+      }
+    ],
+    [
+      {
+        "dex": "sushiswap",
+        "key": "0x4C16f69302CcB511c5Fac682c7626B9eF0Dc126a/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "pairAddress": "0xc5666D43F06C073E869bce02407569f578B2072D",
+        "pairSymbol": "polyBUNNY/WETH",
+        "rawReserve0": "716226289010917084733718",
+        "rawReserve1": "2814828662860551903",
+        "reserve0": "716226289010917084733718",
+        "reserve1": "2814828662860551903",
+        "tokenA": {
+          "address": "0x4C16f69302CcB511c5Fac682c7626B9eF0Dc126a",
+          "decimal": "18",
+          "decimalValue": "1000000000000000000",
+          "name": "Polygon BUNNY Token",
+          "symbol": "polyBUNNY"
+        },
+        "tokenB": {
+          "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+          "decimal": "18",
+          "decimalValue": "1000000000000000000",
+          "name": "Wrapped Ether",
+          "symbol": "WETH"
+        },
+        "liquidity": "9628.1217917953635758837898",
+        "tokenAPrice": "0.0061",
+        "tokenBPrice": "1868.3700"
+      },
+      {
+        "dex": "quickswap",
+        "key": "0x4C16f69302CcB511c5Fac682c7626B9eF0Dc126a/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "pairAddress": "0x62052b489Cb5bC72a9DC8EEAE4B24FD50639921a",
+        "pairSymbol": "polyBUNNY/WETH",
+        "rawReserve0": "501601886725209594891591",
+        "rawReserve1": "1971840458302899817",
+        "reserve0": "501601886725209594891591",
+        "reserve1": "1971840458302899817",
+        "tokenA": {
+          "address": "0x4C16f69302CcB511c5Fac682c7626B9eF0Dc126a",
+          "decimal": "18",
+          "decimalValue": "1000000000000000000",
+          "name": "Polygon BUNNY Token",
+          "symbol": "polyBUNNY"
+        },
+        "tokenB": {
+          "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+          "decimal": "18",
+          "decimalValue": "1000000000000000000",
+          "name": "Wrapped Ether",
+          "symbol": "WETH"
+        },
+        "liquidity": "6743.8990661031674599269951",
+        "tokenAPrice": "0.0061",
+        "tokenBPrice": "1868.3700"
+      }
+    ],
+    [
+      {
+        "dex": "sushiswap",
+        "key": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x14520807406DA50e6E7a1dAA58DA6775A2E0C992",
+        "pairAddress": "0xbB469f2620968A785F828E035c6EeFe9Afc961Be",
+        "pairSymbol": "WMATIC/KOR",
+        "rawReserve0": "1028382215363723770370",
+        "rawReserve1": "202283942687881253993203265",
+        "reserve0": "1028382215363723770370",
+        "reserve1": "202283942687881253993203265",
+        "tokenA": {
+          "address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+          "decimal": "18",
+          "decimalValue": "1000000000000000000",
+          "name": "Wrapped Matic",
+          "symbol": "WMATIC"
+        },
+        "tokenB": {
+          "address": "0x14520807406DA50e6E7a1dAA58DA6775A2E0C992",
+          "decimal": "18",
+          "decimalValue": "1000000000000000000",
+          "name": "KOREA",
+          "symbol": "KOR"
+        },
+        "liquidity": "814.684391011141970887114",
+        "tokenAPrice": "0.7922",
+        "tokenBPrice": 0
+      },
+      {
+        "dex": "quickswap",
+        "key": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x14520807406DA50e6E7a1dAA58DA6775A2E0C992",
+        "pairAddress": "0x23F4F9fc0Cdd395E7a063CcD430eE273E077d493",
+        "pairSymbol": "WMATIC/KOR",
+        "rawReserve0": "1011947201354457945785",
+        "rawReserve1": "197663330862617447350779415",
+        "reserve0": "1011947201354457945785",
+        "reserve1": "197663330862617447350779415",
+        "tokenA": {
+          "address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+          "decimal": "18",
+          "decimalValue": "1000000000000000000",
+          "name": "Wrapped Matic",
+          "symbol": "WMATIC"
+        },
+        "tokenB": {
+          "address": "0x14520807406DA50e6E7a1dAA58DA6775A2E0C992",
+          "decimal": "18",
+          "decimalValue": "1000000000000000000",
+          "name": "KOREA",
+          "symbol": "KOR"
+        },
+        "liquidity": "801.664572913001584650877",
+        "tokenAPrice": "0.7922",
+        "tokenBPrice": 0
+      }
+    ],
+    [
+      {
+        "dex": "sushiswap",
+        "key": "0x25788a1a171ec66Da6502f9975a15B609fF54CF6/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "pairAddress": "0x34908eC7f451beaA88C46C60A394cF324f86F67E",
+        "pairSymbol": "POOL/WETH",
+        "rawReserve0": "2825395779894545148584",
+        "rawReserve1": "1168756387664585802",
+        "reserve0": "2825395779894545148584",
+        "reserve1": "1168756387664585802",
+        "tokenA": {
+          "address": "0x25788a1a171ec66Da6502f9975a15B609fF54CF6",
+          "decimal": "18",
+          "decimalValue": "1000000000000000000",
+          "name": "PoolTogether (PoS)",
+          "symbol": "POOL"
+        },
+        "tokenB": {
+          "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+          "decimal": "18",
+          "decimalValue": "1000000000000000000",
+          "name": "Wrapped Ether",
+          "symbol": "WETH"
+        },
+        "liquidity": "4156.5502853160529629510376",
+        "tokenAPrice": "0.6989",
+        "tokenBPrice": "1866.8400"
+      },
+      {
+        "dex": "quickswap",
+        "key": "0x25788a1a171ec66Da6502f9975a15B609fF54CF6/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "pairAddress": "0x1585d301B58661bC0cb5A8ebA24ECaE7b4600470",
+        "pairSymbol": "POOL/WETH",
+        "rawReserve0": "1934378526959840854527",
+        "rawReserve1": "792843252576757343",
+        "reserve0": "1934378526959840854527",
+        "reserve1": "792843252576757343",
+        "tokenA": {
+          "address": "0x25788a1a171ec66Da6502f9975a15B609fF54CF6",
+          "decimal": "18",
+          "decimalValue": "1000000000000000000",
+          "name": "PoolTogether (PoS)",
+          "symbol": "POOL"
+        },
+        "tokenB": {
+          "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+          "decimal": "18",
+          "decimalValue": "1000000000000000000",
+          "name": "Wrapped Ether",
+          "symbol": "WETH"
+        },
+        "liquidity": "2832.0486501326264514350403",
+        "tokenAPrice": "0.6989",
+        "tokenBPrice": "1866.8400"
+      }
+    ],
+    [
+      {
+        "dex": "sushiswap",
+        "key": "0x255707B70BF90aa112006E1b07B9AeA6De021424/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+        "pairAddress": "0xF1c97B5d031f09f64580Fe79FE30110A8C971bF9",
+        "pairSymbol": "TETU/USDC",
+        "rawReserve0": "39139547433498040301686",
+        "rawReserve1": "520499390",
+        "reserve0": "39139547433498040301686",
+        "reserve1": "520499390",
+        "tokenA": {
+          "address": "0x255707B70BF90aa112006E1b07B9AeA6De021424",
+          "decimal": "18",
+          "decimalValue": "1000000000000000000",
+          "name": "TETU Reward Token",
+          "symbol": "TETU"
+        },
+        "tokenB": {
+          "address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+          "decimal": "6",
+          "decimalValue": "1000000",
+          "name": "USD Coin (PoS)",
+          "symbol": "USDC"
+        },
+        "liquidity": "849.2195385023835385341624",
+        "tokenAPrice": "0.0084",
+        "tokenBPrice": "0.9999"
+      },
+      {
+        "dex": "quickswap",
+        "key": "0x255707B70BF90aa112006E1b07B9AeA6De021424/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+        "pairAddress": "0x22E2BDaBEbA9b5ff8924275DbE47aDE5cf7b822B",
+        "pairSymbol": "TETU/USDC",
+        "rawReserve0": "102885291037925623962410",
+        "rawReserve1": "1375258076",
+        "reserve0": "102885291037925623962410",
+        "reserve1": "1375258076",
+        "tokenA": {
+          "address": "0x255707B70BF90aa112006E1b07B9AeA6De021424",
+          "decimal": "18",
+          "decimalValue": "1000000000000000000",
+          "name": "TETU Reward Token",
+          "symbol": "TETU"
+        },
+        "tokenB": {
+          "address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+          "decimal": "6",
+          "decimalValue": "1000000",
+          "name": "USD Coin (PoS)",
+          "symbol": "USDC"
+        },
+        "liquidity": "2239.356994910975241284244",
+        "tokenAPrice": "0.0084",
+        "tokenBPrice": "0.9999"
+      }
+    ],
+    [
+      {
+        "dex": "sushiswap",
+        "key": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0x2B9E7ccDF0F4e5B24757c1E1a80e311E34Cb10c7",
+        "pairAddress": "0x35A47a2dEFDcF9346F234eF08afeC5F79c373c5a",
+        "pairSymbol": "USDC/MASK",
+        "rawReserve0": "752054370",
+        "rawReserve1": "182978726445839900048",
+        "reserve0": "752054370",
+        "reserve1": "182978726445839900048",
+        "tokenA": {
+          "address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+          "decimal": "6",
+          "decimalValue": "1000000",
+          "name": "USD Coin (PoS)",
+          "symbol": "USDC"
+        },
+        "tokenB": {
+          "address": "0x2B9E7ccDF0F4e5B24757c1E1a80e311E34Cb10c7",
+          "decimal": "18",
+          "decimalValue": "1000000000000000000",
+          "name": "Mask Network (PoS)",
+          "symbol": "MASK"
+        },
+        "liquidity": "1507.68130478431878719824",
+        "tokenAPrice": "0.9999",
+        "tokenBPrice": "4.1300"
+      },
+      {
+        "dex": "quickswap",
+        "key": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0x2B9E7ccDF0F4e5B24757c1E1a80e311E34Cb10c7",
+        "pairAddress": "0x253D637068Fbf11B18D0F2a1Bf3B167d37802687",
+        "pairSymbol": "USDC/MASK",
+        "rawReserve0": "21477654618",
+        "rawReserve1": "4803422879049222782312",
+        "reserve0": "21477654618",
+        "reserve1": "4803422879049222782312",
+        "tokenA": {
+          "address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+          "decimal": "6",
+          "decimalValue": "1000000",
+          "name": "USD Coin (PoS)",
+          "symbol": "USDC"
+        },
+        "tokenB": {
+          "address": "0x2B9E7ccDF0F4e5B24757c1E1a80e311E34Cb10c7",
+          "decimal": "18",
+          "decimalValue": "1000000000000000000",
+          "name": "Mask Network (PoS)",
+          "symbol": "MASK"
+        },
+        "liquidity": "41313.64334301149009094856",
+        "tokenAPrice": "0.9999",
+        "tokenBPrice": "4.1300"
+      }
+    ]
+  ]
+  

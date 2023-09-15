@@ -1,0 +1,1674 @@
+[
+    [
+        {
+            "dex": "sushiswap",
+            "key": "0x037A54AaB062628C9Bbae1FDB1583c195585fe41/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenA": {
+                "name": "LCX",
+                "symbol": "LCX",
+                "address": "0x037A54AaB062628C9Bbae1FDB1583c195585fe41",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "16330885550295562318180590321876060544",
+            "pairSymbol": "LCX/WETH",
+            "pairAddress": "0x51dcB8D09FAc22C974cB2EF169310cC501063F46"
+        },
+        {
+            "dex": "uniswap",
+            "key": "0x037A54AaB062628C9Bbae1FDB1583c195585fe41/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenA": {
+                "name": "LCX",
+                "symbol": "LCX",
+                "address": "0x037A54AaB062628C9Bbae1FDB1583c195585fe41",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "1244131830712474174800404924716280406011688",
+            "pairSymbol": "LCX/WETH",
+            "pairAddress": "0xFCB910d871d7e94F5A566B7b32Fb2B19583c09D7"
+        }
+    ],
+    [
+        {
+            "dex": "sushiswap",
+            "key": "0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenA": {
+                "name": "UMA Voting Token v1",
+                "symbol": "UMA",
+                "address": "0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "6303424684919910433512255043906500779130237",
+            "pairSymbol": "UMA/WETH",
+            "pairAddress": "0x001b6450083E531A5a7Bf310BD2c1Af4247E23D4"
+        },
+        {
+            "dex": "uniswap",
+            "key": "0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenA": {
+                "name": "UMA Voting Token v1",
+                "symbol": "UMA",
+                "address": "0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "43062994671878517102374917625519835098841",
+            "pairSymbol": "UMA/WETH",
+            "pairAddress": "0x88D97d199b9ED37C29D846d00D443De980832a22"
+        }
+    ],
+    [
+        {
+            "dex": "sushiswap",
+            "key": "0x08d967bb0134F2d07f7cfb6E246680c53927DD30/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenA": {
+                "name": "MATH Token",
+                "symbol": "MATH",
+                "address": "0x08d967bb0134F2d07f7cfb6E246680c53927DD30",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "70252757075057199136436519599187928",
+            "pairSymbol": "MATH/WETH",
+            "pairAddress": "0xd989f9ACA3Dff9dB16D3B0ceBc252596bB8AA63E"
+        },
+        {
+            "dex": "uniswap",
+            "key": "0x08d967bb0134F2d07f7cfb6E246680c53927DD30/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenA": {
+                "name": "MATH Token",
+                "symbol": "MATH",
+                "address": "0x08d967bb0134F2d07f7cfb6E246680c53927DD30",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "993604905688346057437996613357040090478624",
+            "pairSymbol": "MATH/WETH",
+            "pairAddress": "0x3006c0D2A6e54d3590a44384c6F066c9cF9a4ceA"
+        }
+    ],
+    [
+        {
+            "dex": "sushiswap",
+            "key": "0x0Ae055097C6d159879521C384F1D2123D1f195e6/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenA": {
+                "name": "STAKE",
+                "symbol": "STAKE",
+                "address": "0x0Ae055097C6d159879521C384F1D2123D1f195e6",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "5865825095995676805443236241270259068832",
+            "pairSymbol": "STAKE/WETH",
+            "pairAddress": "0x9Fc5b87b74B9BD239879491056752EB90188106D"
+        },
+        {
+            "dex": "uniswap",
+            "key": "0x0Ae055097C6d159879521C384F1D2123D1f195e6/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenA": {
+                "name": "STAKE",
+                "symbol": "STAKE",
+                "address": "0x0Ae055097C6d159879521C384F1D2123D1f195e6",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "250860487256857144588913154057195488252340",
+            "pairSymbol": "STAKE/WETH",
+            "pairAddress": "0x3B3d4EeFDc603b232907a7f3d0Ed1Eea5C62b5f7"
+        }
+    ],
+    [
+        {
+            "dex": "sushiswap",
+            "key": "0x0D8775F648430679A709E98d2b0Cb6250d2887EF/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenA": {
+                "name": "Basic Attention Token",
+                "symbol": "BAT",
+                "address": "0x0D8775F648430679A709E98d2b0Cb6250d2887EF",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "78674865837275968252558349766113379793",
+            "pairSymbol": "BAT/WETH",
+            "pairAddress": "0x998BF04788C1c631C0e02BD1eED3D945308Bf0a3"
+        },
+        {
+            "dex": "uniswap",
+            "key": "0x0D8775F648430679A709E98d2b0Cb6250d2887EF/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenA": {
+                "name": "Basic Attention Token",
+                "symbol": "BAT",
+                "address": "0x0D8775F648430679A709E98d2b0Cb6250d2887EF",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "10691428147125140732279902260749369879709405",
+            "pairSymbol": "BAT/WETH",
+            "pairAddress": "0xB6909B960DbbE7392D405429eB2b3649752b4838"
+        }
+    ],
+    [
+        {
+            "dex": "sushiswap",
+            "key": "0x107c4504cd79C5d2696Ea0030a8dD4e92601B82e/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenA": {
+                "name": "Bloom Token",
+                "symbol": "BLT",
+                "address": "0x107c4504cd79C5d2696Ea0030a8dD4e92601B82e",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "28734550225519788509426222409198001698214",
+            "pairSymbol": "BLT/WETH",
+            "pairAddress": "0x2D2Bc284c24b5deBE489Da59557862e0aF884F23"
+        },
+        {
+            "dex": "uniswap",
+            "key": "0x107c4504cd79C5d2696Ea0030a8dD4e92601B82e/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenA": {
+                "name": "Bloom Token",
+                "symbol": "BLT",
+                "address": "0x107c4504cd79C5d2696Ea0030a8dD4e92601B82e",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "2379854282137836499107300519657516463997386",
+            "pairSymbol": "BLT/WETH",
+            "pairAddress": "0xf1Ff4c672DaBf9AEa4813DdA6De66b860b0970b4"
+        }
+    ],
+    [
+        {
+            "dex": "sushiswap",
+            "key": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenA": {
+                "name": "Wrapped BTC",
+                "symbol": "WBTC",
+                "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+                "decimal": "8",
+                "decimalValue": "100000000"
+            },
+            "tokenB": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "228950747654652304478373502301922",
+            "pairSymbol": "WBTC/WETH",
+            "pairAddress": "0xCEfF51756c56CeFFCA006cD410B03FFC46dd3a58"
+        },
+        {
+            "dex": "uniswap",
+            "key": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenA": {
+                "name": "Wrapped BTC",
+                "symbol": "WBTC",
+                "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+                "decimal": "8",
+                "decimalValue": "100000000"
+            },
+            "tokenB": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "45149787656496225527383656135324",
+            "pairSymbol": "WBTC/WETH",
+            "pairAddress": "0xBb2b8038a1640196FbE3e38816F3e67Cba72D940"
+        }
+    ],
+    [
+        {
+            "dex": "sushiswap",
+            "key": "0x408e41876cCCDC0F92210600ef50372656052a38/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenA": {
+                "name": "Republic Token",
+                "symbol": "REN",
+                "address": "0x408e41876cCCDC0F92210600ef50372656052a38",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "9474567279891242689224381549087980387108270",
+            "pairSymbol": "REN/WETH",
+            "pairAddress": "0x611CDe65deA90918c0078ac0400A72B0D25B9bb1"
+        },
+        {
+            "dex": "uniswap",
+            "key": "0x408e41876cCCDC0F92210600ef50372656052a38/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenA": {
+                "name": "Republic Token",
+                "symbol": "REN",
+                "address": "0x408e41876cCCDC0F92210600ef50372656052a38",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "205026316717954465099848915343073165162167910",
+            "pairSymbol": "REN/WETH",
+            "pairAddress": "0x8Bd1661Da98EBDd3BD080F0bE4e6d9bE8cE9858c"
+        }
+    ],
+    [
+        {
+            "dex": "sushiswap",
+            "key": "0x40FD72257597aA14C7231A7B1aaa29Fce868F677/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenA": {
+                "name": "Sora Token",
+                "symbol": "XOR",
+                "address": "0x40FD72257597aA14C7231A7B1aaa29Fce868F677",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "139588986086159974059607242429784",
+            "pairSymbol": "XOR/WETH",
+            "pairAddress": "0x47FF5a2ad7A36cfCF7867539f5851A4A573Bf4e1"
+        },
+        {
+            "dex": "uniswap",
+            "key": "0x40FD72257597aA14C7231A7B1aaa29Fce868F677/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenA": {
+                "name": "Sora Token",
+                "symbol": "XOR",
+                "address": "0x40FD72257597aA14C7231A7B1aaa29Fce868F677",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "497297746676800283115066678311953070169784",
+            "pairSymbol": "XOR/WETH",
+            "pairAddress": "0x01962144D41415cCA072900Fe87Bbe2992A99F10"
+        }
+    ],
+    [
+        {
+            "dex": "sushiswap",
+            "key": "0x42d6622deCe394b54999Fbd73D108123806f6a18/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenA": {
+                "name": "SPANK",
+                "symbol": "SPANK",
+                "address": "0x42d6622deCe394b54999Fbd73D108123806f6a18",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "707046898138462194473364998888231184252702",
+            "pairSymbol": "SPANK/WETH",
+            "pairAddress": "0x02C6260cE42Ea5cD055911ed0D4857eCD4583740"
+        },
+        {
+            "dex": "uniswap",
+            "key": "0x42d6622deCe394b54999Fbd73D108123806f6a18/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenA": {
+                "name": "SPANK",
+                "symbol": "SPANK",
+                "address": "0x42d6622deCe394b54999Fbd73D108123806f6a18",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "25487879140981080402079366844862323709",
+            "pairSymbol": "SPANK/WETH",
+            "pairAddress": "0x8Fb8707ef6b66e999aC09A5f96d6ccCD250bCBAd"
+        }
+    ],
+    [
+        {
+            "dex": "sushiswap",
+            "key": "0x514910771AF9Ca656af840dff83E8264EcF986CA/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenA": {
+                "name": "ChainLink Token",
+                "symbol": "LINK",
+                "address": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "75821211333261234516262581100295197514056132",
+            "pairSymbol": "LINK/WETH",
+            "pairAddress": "0xC40D16476380e4037e6b1A2594cAF6a6cc8Da967"
+        },
+        {
+            "dex": "uniswap",
+            "key": "0x514910771AF9Ca656af840dff83E8264EcF986CA/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenA": {
+                "name": "ChainLink Token",
+                "symbol": "LINK",
+                "address": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "56135070744719430673907346483094211461988195",
+            "pairSymbol": "LINK/WETH",
+            "pairAddress": "0xa2107FA5B38d9bbd2C461D6EDf11B11A50F6b974"
+        }
+    ],
+    [
+        {
+            "dex": "sushiswap",
+            "key": "0x543Ff227F64Aa17eA132Bf9886cAb5DB55DCAddf/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenA": {
+                "name": "DAOstack",
+                "symbol": "GEN",
+                "address": "0x543Ff227F64Aa17eA132Bf9886cAb5DB55DCAddf",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "104767665184309267413709482938364",
+            "pairSymbol": "GEN/WETH",
+            "pairAddress": "0xA71fffef0156f7397B0aB0E5fC7468F6F9e325ff"
+        },
+        {
+            "dex": "uniswap",
+            "key": "0x543Ff227F64Aa17eA132Bf9886cAb5DB55DCAddf/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenA": {
+                "name": "DAOstack",
+                "symbol": "GEN",
+                "address": "0x543Ff227F64Aa17eA132Bf9886cAb5DB55DCAddf",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "13594451026906001379753511013292691810978986",
+            "pairSymbol": "GEN/WETH",
+            "pairAddress": "0xf37Ed742819Ec006b0802df5c2B0e9132F22C625"
+        }
+    ],
+    [
+        {
+            "dex": "sushiswap",
+            "key": "0x57Ab1ec28D129707052df4dF418D58a2D46d5f51/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenA": {
+                "name": "Synth sUSD",
+                "symbol": "sUSD",
+                "address": "0x57Ab1ec28D129707052df4dF418D58a2D46d5f51",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "12451928422324812517635376009103192671852830",
+            "pairSymbol": "sUSD/WETH",
+            "pairAddress": "0xF1F85b2C54a2bD284B1cf4141D64fD171Bd85539"
+        },
+        {
+            "dex": "uniswap",
+            "key": "0x57Ab1ec28D129707052df4dF418D58a2D46d5f51/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenA": {
+                "name": "Synth sUSD",
+                "symbol": "sUSD",
+                "address": "0x57Ab1ec28D129707052df4dF418D58a2D46d5f51",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "6231765021951251509650748157021008181396726",
+            "pairSymbol": "sUSD/WETH",
+            "pairAddress": "0xf80758aB42C3B07dA84053Fd88804bCB6BAA4b5c"
+        }
+    ],
+    [
+        {
+            "dex": "sushiswap",
+            "key": "0x6B175474E89094C44Da98b954EedeAC495271d0F/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "tokenA": {
+                "name": "Dai Stablecoin",
+                "symbol": "DAI",
+                "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "USD Coin",
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+                "decimal": "6",
+                "decimalValue": "1000000"
+            },
+            "liquidity": "164072512659150941960650968897325",
+            "pairSymbol": "DAI/USDC",
+            "pairAddress": "0xAaF5110db6e744ff70fB339DE037B990A20bdace"
+        },
+        {
+            "dex": "uniswap",
+            "key": "0x6B175474E89094C44Da98b954EedeAC495271d0F/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "tokenA": {
+                "name": "Dai Stablecoin",
+                "symbol": "DAI",
+                "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "USD Coin",
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+                "decimal": "6",
+                "decimalValue": "1000000"
+            },
+            "liquidity": "168738505292679797154333932572703968874",
+            "pairSymbol": "DAI/USDC",
+            "pairAddress": "0xAE461cA67B15dc8dc81CE7615e0320dA1A9aB8D5"
+        }
+    ],
+    [
+        {
+            "dex": "sushiswap",
+            "key": "0x6B175474E89094C44Da98b954EedeAC495271d0F/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenA": {
+                "name": "Dai Stablecoin",
+                "symbol": "DAI",
+                "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "8623951615938012340033304305910157901549234609",
+            "pairSymbol": "DAI/WETH",
+            "pairAddress": "0xC3D03e4F041Fd4cD388c549Ee2A29a9E5075882f"
+        },
+        {
+            "dex": "uniswap",
+            "key": "0x6B175474E89094C44Da98b954EedeAC495271d0F/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenA": {
+                "name": "Dai Stablecoin",
+                "symbol": "DAI",
+                "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "33256674601692221225912312645536316776986204810",
+            "pairSymbol": "DAI/WETH",
+            "pairAddress": "0xA478c2975Ab1Ea89e8196811F51A7B7Ade33eB11"
+        }
+    ],
+    [
+        {
+            "dex": "sushiswap",
+            "key": "0x6B175474E89094C44Da98b954EedeAC495271d0F/0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "tokenA": {
+                "name": "Dai Stablecoin",
+                "symbol": "DAI",
+                "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "Tether USD",
+                "symbol": "USDT",
+                "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+                "decimal": "6",
+                "decimalValue": "1000000"
+            },
+            "liquidity": "35924986411896401180074095993",
+            "pairSymbol": "DAI/USDT",
+            "pairAddress": "0x055CEDfe14BCE33F985C41d9A1934B7654611AAC"
+        },
+        {
+            "dex": "uniswap",
+            "key": "0x6B175474E89094C44Da98b954EedeAC495271d0F/0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "tokenA": {
+                "name": "Dai Stablecoin",
+                "symbol": "DAI",
+                "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "Tether USD",
+                "symbol": "USDT",
+                "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+                "decimal": "6",
+                "decimalValue": "1000000"
+            },
+            "liquidity": "1605094398247756867963908617587688",
+            "pairSymbol": "DAI/USDT",
+            "pairAddress": "0xB20bd5D04BE54f870D5C0d3cA85d82b34B836405"
+        }
+    ],
+    [
+        {
+            "dex": "sushiswap",
+            "key": "0x80fB784B7eD66730e8b1DBd9820aFD29931aab03/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenA": {
+                "name": "EthLend Token",
+                "symbol": "LEND",
+                "address": "0x80fB784B7eD66730e8b1DBd9820aFD29931aab03",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "121131402638893941228884069605111801406705",
+            "pairSymbol": "LEND/WETH",
+            "pairAddress": "0x5E63360E891BD60C69445970256C260b0A6A54c6"
+        },
+        {
+            "dex": "uniswap",
+            "key": "0x80fB784B7eD66730e8b1DBd9820aFD29931aab03/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenA": {
+                "name": "EthLend Token",
+                "symbol": "LEND",
+                "address": "0x80fB784B7eD66730e8b1DBd9820aFD29931aab03",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "4327259344234502654935435297752232655551052",
+            "pairSymbol": "LEND/WETH",
+            "pairAddress": "0xaB3F9bF1D81ddb224a2014e98B238638824bCf20"
+        }
+    ],
+    [
+        {
+            "dex": "sushiswap",
+            "key": "0x8400D94A5cb0fa0D041a3788e395285d61c9ee5e/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenA": {
+                "name": "UniBright",
+                "symbol": "UBT",
+                "address": "0x8400D94A5cb0fa0D041a3788e395285d61c9ee5e",
+                "decimal": "8",
+                "decimalValue": "100000000"
+            },
+            "tokenB": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "470997852301214166553143",
+            "pairSymbol": "UBT/WETH",
+            "pairAddress": "0x1c8dB04C881e626672E590aCa139c55e0686e93e"
+        },
+        {
+            "dex": "uniswap",
+            "key": "0x8400D94A5cb0fa0D041a3788e395285d61c9ee5e/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenA": {
+                "name": "UniBright",
+                "symbol": "UBT",
+                "address": "0x8400D94A5cb0fa0D041a3788e395285d61c9ee5e",
+                "decimal": "8",
+                "decimalValue": "100000000"
+            },
+            "tokenB": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "3629813300866430444381898192643102",
+            "pairSymbol": "UBT/WETH",
+            "pairAddress": "0xB27dE0bA2abFbFdf15667a939f041b52118aF5Ba"
+        }
+    ],
+    [
+        {
+            "dex": "sushiswap",
+            "key": "0x8762db106B2c2A0bccB3A80d1Ed41273552616E8/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenA": {
+                "name": "Reserve Rights",
+                "symbol": "RSR",
+                "address": "0x8762db106B2c2A0bccB3A80d1Ed41273552616E8",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "1430298549028099974139379646633083772160",
+            "pairSymbol": "RSR/WETH",
+            "pairAddress": "0x6f58A1Aa0248A9F794d13Dc78E74Fc75140956D7"
+        },
+        {
+            "dex": "uniswap",
+            "key": "0x8762db106B2c2A0bccB3A80d1Ed41273552616E8/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenA": {
+                "name": "Reserve Rights",
+                "symbol": "RSR",
+                "address": "0x8762db106B2c2A0bccB3A80d1Ed41273552616E8",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "705903812644993528593982960859295718717677090",
+            "pairSymbol": "RSR/WETH",
+            "pairAddress": "0xba65016890709dBC9491Ca7bF5DE395B8441DC8B"
+        }
+    ],
+    [
+        {
+            "dex": "sushiswap",
+            "key": "0x8A9C67fee641579dEbA04928c4BC45F66e26343A/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenA": {
+                "name": "Jarvis Reward Token",
+                "symbol": "JRT",
+                "address": "0x8A9C67fee641579dEbA04928c4BC45F66e26343A",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "337159290909432591125459554027796227478728",
+            "pairSymbol": "JRT/WETH",
+            "pairAddress": "0xF1360C4ae1cead17B588ec1111983d2791B760d3"
+        },
+        {
+            "dex": "uniswap",
+            "key": "0x8A9C67fee641579dEbA04928c4BC45F66e26343A/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenA": {
+                "name": "Jarvis Reward Token",
+                "symbol": "JRT",
+                "address": "0x8A9C67fee641579dEbA04928c4BC45F66e26343A",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "4844350535957377742592395592870849727721120",
+            "pairSymbol": "JRT/WETH",
+            "pairAddress": "0x2b6A25f7C54F43C71C743e627F5663232586C39F"
+        }
+    ],
+    [
+        {
+            "dex": "sushiswap",
+            "key": "0x93ED3FBe21207Ec2E8f2d3c3de6e058Cb73Bc04d/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenA": {
+                "name": "Pinakion",
+                "symbol": "PNK",
+                "address": "0x93ED3FBe21207Ec2E8f2d3c3de6e058Cb73Bc04d",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "1795008628423628095565145571665954139077068",
+            "pairSymbol": "PNK/WETH",
+            "pairAddress": "0xEF4F1D5007B4FF88c1A56261fec00264AF6001Fb"
+        },
+        {
+            "dex": "uniswap",
+            "key": "0x93ED3FBe21207Ec2E8f2d3c3de6e058Cb73Bc04d/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenA": {
+                "name": "Pinakion",
+                "symbol": "PNK",
+                "address": "0x93ED3FBe21207Ec2E8f2d3c3de6e058Cb73Bc04d",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "57358000223709672713719147875551527922118166150",
+            "pairSymbol": "PNK/WETH",
+            "pairAddress": "0x343FD171caf4F0287aE6b87D75A8964Dc44516Ab"
+        }
+    ],
+    [
+        {
+            "dex": "sushiswap",
+            "key": "0x960b236A07cf122663c4303350609A66A7B288C0/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenA": {
+                "name": "Aragon Network Token",
+                "symbol": "ANT",
+                "address": "0x960b236A07cf122663c4303350609A66A7B288C0",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "1576413531153963679661713968162619",
+            "pairSymbol": "ANT/WETH",
+            "pairAddress": "0x378b4c5f2a8a0796A8d4c798Ef737cF00Ae8e667"
+        },
+        {
+            "dex": "uniswap",
+            "key": "0x960b236A07cf122663c4303350609A66A7B288C0/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenA": {
+                "name": "Aragon Network Token",
+                "symbol": "ANT",
+                "address": "0x960b236A07cf122663c4303350609A66A7B288C0",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "4620635677218635375986416598490775315910",
+            "pairSymbol": "ANT/WETH",
+            "pairAddress": "0xfa19de406e8F5b9100E4dD5CaD8a503a6d686Efe"
+        }
+    ],
+    [
+        {
+            "dex": "sushiswap",
+            "key": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenA": {
+                "name": "Maker",
+                "symbol": "MKR",
+                "address": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "27499910931220686073347866250907592226951",
+            "pairSymbol": "MKR/WETH",
+            "pairAddress": "0xBa13afEcda9beB75De5c56BbAF696b880a5A50dD"
+        },
+        {
+            "dex": "uniswap",
+            "key": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenA": {
+                "name": "Maker",
+                "symbol": "MKR",
+                "address": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "319893861644286684044976898729294817689986",
+            "pairSymbol": "MKR/WETH",
+            "pairAddress": "0xC2aDdA861F89bBB333c90c492cB837741916A225"
+        }
+    ],
+    [
+        {
+            "dex": "sushiswap",
+            "key": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenA": {
+                "name": "USD Coin",
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+                "decimal": "6",
+                "decimalValue": "1000000"
+            },
+            "tokenB": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "110952396157629617099382935008808038",
+            "pairSymbol": "USDC/WETH",
+            "pairAddress": "0x397FF1542f962076d0BFE58eA045FfA2d347ACa0"
+        },
+        {
+            "dex": "uniswap",
+            "key": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenA": {
+                "name": "USD Coin",
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+                "decimal": "6",
+                "decimalValue": "1000000"
+            },
+            "tokenB": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "430272662859974325872199741832737635",
+            "pairSymbol": "USDC/WETH",
+            "pairAddress": "0xB4e16d0168e52d35CaCD2c6185b44281Ec28C9Dc"
+        }
+    ],
+    [
+        {
+            "dex": "sushiswap",
+            "key": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "tokenA": {
+                "name": "USD Coin",
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+                "decimal": "6",
+                "decimalValue": "1000000"
+            },
+            "tokenB": {
+                "name": "Tether USD",
+                "symbol": "USDT",
+                "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+                "decimal": "6",
+                "decimalValue": "1000000"
+            },
+            "liquidity": "256647010786952552448",
+            "pairSymbol": "USDC/USDT",
+            "pairAddress": "0xD86A120a06255Df8D4e2248aB04d4267E23aDfaA"
+        },
+        {
+            "dex": "uniswap",
+            "key": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "tokenA": {
+                "name": "USD Coin",
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+                "decimal": "6",
+                "decimalValue": "1000000"
+            },
+            "tokenB": {
+                "name": "Tether USD",
+                "symbol": "USDT",
+                "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+                "decimal": "6",
+                "decimalValue": "1000000"
+            },
+            "liquidity": "16613036449557763800192825",
+            "pairSymbol": "USDC/USDT",
+            "pairAddress": "0x3041CbD36888bECc7bbCBc0045E3B1f144466f5f"
+        }
+    ],
+    [
+        {
+            "dex": "sushiswap",
+            "key": "0xB6eD7644C69416d67B522e20bC294A9a9B405B31/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenA": {
+                "name": "0xBitcoin Token",
+                "symbol": "0xBTC",
+                "address": "0xB6eD7644C69416d67B522e20bC294A9a9B405B31",
+                "decimal": "8",
+                "decimalValue": "100000000"
+            },
+            "tokenB": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "1154746908572160148791144",
+            "pairSymbol": "0xBTC/WETH",
+            "pairAddress": "0x67f3F90D88D0dD6b6ebdA2e92e5E7C0147514Ad3"
+        },
+        {
+            "dex": "uniswap",
+            "key": "0xB6eD7644C69416d67B522e20bC294A9a9B405B31/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenA": {
+                "name": "0xBitcoin Token",
+                "symbol": "0xBTC",
+                "address": "0xB6eD7644C69416d67B522e20bC294A9a9B405B31",
+                "decimal": "8",
+                "decimalValue": "100000000"
+            },
+            "tokenB": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "7366734692330846305068179672352",
+            "pairSymbol": "0xBTC/WETH",
+            "pairAddress": "0xc12c4c3E0008B838F75189BFb39283467cf6e5b3"
+        }
+    ],
+    [
+        {
+            "dex": "sushiswap",
+            "key": "0xBA11D00c5f74255f56a5E366F4F77f5A186d7f55/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenA": {
+                "name": "BandToken",
+                "symbol": "BAND",
+                "address": "0xBA11D00c5f74255f56a5E366F4F77f5A186d7f55",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "42067170540204315011686066446936824700709520",
+            "pairSymbol": "BAND/WETH",
+            "pairAddress": "0xA75F7c2F025f470355515482BdE9EFA8153536A8"
+        },
+        {
+            "dex": "uniswap",
+            "key": "0xBA11D00c5f74255f56a5E366F4F77f5A186d7f55/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenA": {
+                "name": "BandToken",
+                "symbol": "BAND",
+                "address": "0xBA11D00c5f74255f56a5E366F4F77f5A186d7f55",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "111618999789203660557389177980190316114194",
+            "pairSymbol": "BAND/WETH",
+            "pairAddress": "0xf421c3f2e695C2D4C0765379cCace8adE4a480D9"
+        }
+    ],
+    [
+        {
+            "dex": "sushiswap",
+            "key": "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenA": {
+                "name": "Synthetix Network Token",
+                "symbol": "SNX",
+                "address": "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "12334368666498678166737704770207617552767511",
+            "pairSymbol": "SNX/WETH",
+            "pairAddress": "0xA1d7b2d891e3A1f9ef4bBC5be20630C2FEB1c470"
+        },
+        {
+            "dex": "uniswap",
+            "key": "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenA": {
+                "name": "Synthetix Network Token",
+                "symbol": "SNX",
+                "address": "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "41070282029084136037062058051458553146321714",
+            "pairSymbol": "SNX/WETH",
+            "pairAddress": "0x43AE24960e5534731Fc831386c07755A2dc33D47"
+        }
+    ],
+    [
+        {
+            "dex": "sushiswap",
+            "key": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/0xC76FB75950536d98FA62ea968E1D6B45ffea2A55",
+            "tokenA": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "COL",
+                "symbol": "COL",
+                "address": "0xC76FB75950536d98FA62ea968E1D6B45ffea2A55",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "28734573730050550634905090282919283835",
+            "pairSymbol": "WETH/COL",
+            "pairAddress": "0x04e1c5F32941cFdF5A593E2345C52eDa2984cEd6"
+        },
+        {
+            "dex": "uniswap",
+            "key": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/0xC76FB75950536d98FA62ea968E1D6B45ffea2A55",
+            "tokenA": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "COL",
+                "symbol": "COL",
+                "address": "0xC76FB75950536d98FA62ea968E1D6B45ffea2A55",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "2420495097967185433113930490714572747968",
+            "pairSymbol": "WETH/COL",
+            "pairAddress": "0xfd29420060464b69f2e1804b685354c31687121e"
+        }
+    ],
+    [
+        {
+            "dex": "sushiswap",
+            "key": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/0xD46bA6D942050d489DBd938a2C909A5d5039A161",
+            "tokenA": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "Ampleforth",
+                "symbol": "AMPL",
+                "address": "0xD46bA6D942050d489DBd938a2C909A5d5039A161",
+                "decimal": "9",
+                "decimalValue": "1000000000"
+            },
+            "liquidity": "9027088430716127242120606997864358",
+            "pairSymbol": "WETH/AMPL",
+            "pairAddress": "0xCb2286d9471cc185281c4f763d34A962ED212962"
+        },
+        {
+            "dex": "uniswap",
+            "key": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/0xD46bA6D942050d489DBd938a2C909A5d5039A161",
+            "tokenA": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "Ampleforth",
+                "symbol": "AMPL",
+                "address": "0xD46bA6D942050d489DBd938a2C909A5d5039A161",
+                "decimal": "9",
+                "decimalValue": "1000000000"
+            },
+            "liquidity": "1717121727294108501799961236285972241",
+            "pairSymbol": "WETH/AMPL",
+            "pairAddress": "0xc5be99A02C6857f9Eac67BbCE58DF5572498F40c"
+        }
+    ],
+    [
+        {
+            "dex": "sushiswap",
+            "key": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/0xE48972fCd82a274411c01834e2f031D4377Fa2c0",
+            "tokenA": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "TwoKeyEconomy",
+                "symbol": "2KEY",
+                "address": "0xE48972fCd82a274411c01834e2f031D4377Fa2c0",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "4387902076186953409423599481025249605",
+            "pairSymbol": "WETH/2KEY",
+            "pairAddress": "0xEA2B2aBEc815a2782b25EA2B3d998e1A5EaFC259"
+        },
+        {
+            "dex": "uniswap",
+            "key": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/0xE48972fCd82a274411c01834e2f031D4377Fa2c0",
+            "tokenA": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "TwoKeyEconomy",
+                "symbol": "2KEY",
+                "address": "0xE48972fCd82a274411c01834e2f031D4377Fa2c0",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "117528691401649223652365459669847158184375000",
+            "pairSymbol": "WETH/2KEY",
+            "pairAddress": "0x63E7Aa05B78144013Cfa4b23C9b61599D0a29023"
+        }
+    ],
+    [
+        {
+            "dex": "sushiswap",
+            "key": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/0xEB4C2781e4ebA804CE9a9803C67d0893436bB27D",
+            "tokenA": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "renBTC",
+                "symbol": "renBTC",
+                "address": "0xEB4C2781e4ebA804CE9a9803C67d0893436bB27D",
+                "decimal": "8",
+                "decimalValue": "100000000"
+            },
+            "liquidity": "2878389390546509771943",
+            "pairSymbol": "WETH/renBTC",
+            "pairAddress": "0x0289B9CD5859476Ce325aCa04309D36adDCEbDAA"
+        },
+        {
+            "dex": "uniswap",
+            "key": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/0xEB4C2781e4ebA804CE9a9803C67d0893436bB27D",
+            "tokenA": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "renBTC",
+                "symbol": "renBTC",
+                "address": "0xEB4C2781e4ebA804CE9a9803C67d0893436bB27D",
+                "decimal": "8",
+                "decimalValue": "100000000"
+            },
+            "liquidity": "38232817897035117060574396692",
+            "pairSymbol": "WETH/renBTC",
+            "pairAddress": "0x81FbEf4704776cc5bBa0A5dF3a90056d2C6900B3"
+        }
+    ],
+    [
+        {
+            "dex": "sushiswap",
+            "key": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/0xF970b8E36e23F7fC3FD752EeA86f8Be8D83375A6",
+            "tokenA": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "Ripio Credit Network Token",
+                "symbol": "RCN",
+                "address": "0xF970b8E36e23F7fC3FD752EeA86f8Be8D83375A6",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "256490670613262071121707348375639449552",
+            "pairSymbol": "WETH/RCN",
+            "pairAddress": "0x10d11d511019f85F977A553ec5A6A421D038efDB"
+        },
+        {
+            "dex": "uniswap",
+            "key": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/0xF970b8E36e23F7fC3FD752EeA86f8Be8D83375A6",
+            "tokenA": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "Ripio Credit Network Token",
+                "symbol": "RCN",
+                "address": "0xF970b8E36e23F7fC3FD752EeA86f8Be8D83375A6",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "234112910907995141366005990510085235959626288",
+            "pairSymbol": "WETH/RCN",
+            "pairAddress": "0xf0936E53D924d7F442A04c038082A46c77ECc8d8"
+        }
+    ],
+    [
+        {
+            "dex": "sushiswap",
+            "key": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/0xd26114cd6EE289AccF82350c8d8487fedB8A0C07",
+            "tokenA": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "OMGToken",
+                "symbol": "OMG",
+                "address": "0xd26114cd6EE289AccF82350c8d8487fedB8A0C07",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "60772535910093374361059149139236555240512",
+            "pairSymbol": "WETH/OMG",
+            "pairAddress": "0x742c15d71eA7444964BC39b0eD729B3729ADc361"
+        },
+        {
+            "dex": "uniswap",
+            "key": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/0xd26114cd6EE289AccF82350c8d8487fedB8A0C07",
+            "tokenA": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "OMGToken",
+                "symbol": "OMG",
+                "address": "0xd26114cd6EE289AccF82350c8d8487fedB8A0C07",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "12582072761862250133329661849783618567744",
+            "pairSymbol": "WETH/OMG",
+            "pairAddress": "0x48E313460DD00100e22230e56E0A87B394066844"
+        }
+    ],
+    [
+        {
+            "dex": "sushiswap",
+            "key": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "tokenA": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "Tether USD",
+                "symbol": "USDT",
+                "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+                "decimal": "6",
+                "decimalValue": "1000000"
+            },
+            "liquidity": "88793589836887613532159217493450565",
+            "pairSymbol": "WETH/USDT",
+            "pairAddress": "0x06da0fd433C1A5d7a4faa01111c044910A184553"
+        },
+        {
+            "dex": "uniswap",
+            "key": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "tokenA": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "Tether USD",
+                "symbol": "USDT",
+                "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+                "decimal": "6",
+                "decimalValue": "1000000"
+            },
+            "liquidity": "459273801644111516501920230629594858",
+            "pairSymbol": "WETH/USDT",
+            "pairAddress": "0x0d4a11d5EEaaC28EC3F61d100daF4d40471f1852"
+        }
+    ],
+    [
+        {
+            "dex": "sushiswap",
+            "key": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/0xf67041758D3B6e56D6fDafA5B32038302C3634DA",
+            "tokenA": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "TBC Shopping Token",
+                "symbol": "TST",
+                "address": "0xf67041758D3B6e56D6fDafA5B32038302C3634DA",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "629172100335368514149446788695149290940385",
+            "pairSymbol": "WETH/TST",
+            "pairAddress": "0x53BB862238b852f387C3f8b8008E4622548E82D1"
+        },
+        {
+            "dex": "uniswap",
+            "key": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/0xf67041758D3B6e56D6fDafA5B32038302C3634DA",
+            "tokenA": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "tokenB": {
+                "name": "TBC Shopping Token",
+                "symbol": "TST",
+                "address": "0xf67041758D3B6e56D6fDafA5B32038302C3634DA",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "21496472189645657184681357554223611746209",
+            "pairSymbol": "WETH/TST",
+            "pairAddress": "0x0FB402016ae5Aa800695dd782807fD8197000f67"
+        }
+    ],
+    [
+        {
+            "dex": "sushiswap",
+            "key": "0xaD5Fe5B0B8eC8fF4565204990E4405B2Da117d8e/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenA": {
+                "name": "TRONCLASSIC",
+                "symbol": "TRXC",
+                "address": "0xaD5Fe5B0B8eC8fF4565204990E4405B2Da117d8e",
+                "decimal": "0",
+                "decimalValue": "1"
+            },
+            "tokenB": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "747145319490210277307304",
+            "pairSymbol": "TRXC/WETH",
+            "pairAddress": "0xFD58EadE18B473CEfe6D6EA9438aE0E31e22C2b3"
+        },
+        {
+            "dex": "uniswap",
+            "key": "0xaD5Fe5B0B8eC8fF4565204990E4405B2Da117d8e/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenA": {
+                "name": "TRONCLASSIC",
+                "symbol": "TRXC",
+                "address": "0xaD5Fe5B0B8eC8fF4565204990E4405B2Da117d8e",
+                "decimal": "0",
+                "decimalValue": "1"
+            },
+            "tokenB": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "1082472565783251607571753950",
+            "pairSymbol": "TRXC/WETH",
+            "pairAddress": "0x034Ac58393eCc9A687ce56527d617AC5661d3e97"
+        }
+    ],
+    [
+        {
+            "dex": "sushiswap",
+            "key": "0xbF4a2DdaA16148a9D0fA2093FfAC450ADb7cd4aa/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenA": {
+                "name": "Ethereum Money",
+                "symbol": "ETHMNY",
+                "address": "0xbF4a2DdaA16148a9D0fA2093FfAC450ADb7cd4aa",
+                "decimal": "2",
+                "decimalValue": "100"
+            },
+            "tokenB": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "4422304081238087235788652102",
+            "pairSymbol": "ETHMNY/WETH",
+            "pairAddress": "0x5A459D168a55071Dd1Ad60d7393AFbdb72c4ccaB"
+        },
+        {
+            "dex": "uniswap",
+            "key": "0xbF4a2DdaA16148a9D0fA2093FfAC450ADb7cd4aa/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenA": {
+                "name": "Ethereum Money",
+                "symbol": "ETHMNY",
+                "address": "0xbF4a2DdaA16148a9D0fA2093FfAC450ADb7cd4aa",
+                "decimal": "2",
+                "decimalValue": "100"
+            },
+            "tokenB": {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimal": "18",
+                "decimalValue": "1000000000000000000"
+            },
+            "liquidity": "1794560587135141159261062",
+            "pairSymbol": "ETHMNY/WETH",
+            "pairAddress": "0x17eE04ec364577937855D2e9a7adD8d2a957E4Fa"
+        }
+    ]
+]
