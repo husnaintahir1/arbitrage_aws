@@ -20,8 +20,7 @@ async function fetchAndStorePairs(start = 0) {
         require("../../abis/eth-uni-factory-abi.json"),
         "uniswap",
         nextStart,
-        100,
-        100
+        
       );
       uniPairs = [...uniPairs, ...uniBatch.pairs];
       nextStart = uniBatch.nextStart;
@@ -53,8 +52,6 @@ async function fetchAndStorePairs(start = 0) {
         require("../../abis/eth-sushi-factory-abi.json"),
         "sushiswap",
         nextStart,
-        100,
-        100
       );
       sushiPairs = [...sushiPairs, ...sushiBatch.pairs];
       nextStart = sushiBatch.nextStart;

@@ -16,7 +16,7 @@ async function getPairs(
   factoryABI,
   dex,
   batchStart = 0,
-  batchSize = 200,
+  batchSize = 100,
   maxIndex = Infinity,
   maxRetries = 8,
   retryDelay = 10000
@@ -248,7 +248,7 @@ function writeOverlappedPairs(data) {
   }
 
   console.log(`Total overlapping pairs: ${tempArray.length}`);
-  console.log("Overlapping pairs:", tempArray);
+
 
   writeJson(overlappedPath, tempArray)
     .then(() => {
