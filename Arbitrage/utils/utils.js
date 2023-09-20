@@ -250,7 +250,7 @@ function writeOverlappedPairs(data) {
   console.log(`Total overlapping pairs: ${tempArray.length}`);
 
 
-  writeJson(overlappedPath, tempArray)
+  writeJson(overlappedPath, tempArray,{ flag: "w", spaces: 2 })
     .then(() => {
       console.log("Overlapping pairs data written to file successfully.");
     })

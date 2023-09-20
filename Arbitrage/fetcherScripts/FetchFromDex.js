@@ -5,7 +5,7 @@ const sushiFactoryAddress = "0xC0AEe478e3658e2610c5F7A4A2E1777cE9e4f2Ac";
 const uniFactoryAddress = "0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f";
 const path = require('path');
 const uniPath = path.join(__dirname, '..', 'data', 'uniPairs.json');
-const sushiPath = path.join(__dirname, '..', 'data', 'sushiPair.json');
+const sushiPath = path.join(__dirname, '..', 'data', 'sushiPairs.json');
 async function fetchAndStorePairs(start = 0) {
   const load = loading("Fetching pairs...").start();
   let nextStart = start; // Start from the specified index (0 by default)
@@ -34,7 +34,7 @@ async function fetchAndStorePairs(start = 0) {
   }
 
   try {
-    await writeJson(sushiPath, sushiPairs);
+    await writeJson(sushiPath, sushiPairs,{ flag: "w", spaces: 2 });
     console.log("Stored SushiSwap pairs to 'SushiPairs.json'.");
   } catch (error) {
     console.error(`Error storing SushiSwap pairs: ${error.message}`);
@@ -67,7 +67,7 @@ async function fetchAndStorePairs(start = 0) {
   }
 
   try {
-    await writeJson(uniPath, uniPairs);
+    await writeJson(uniPath, uniPairs,{ flag: "w", spaces: 2 });
     console.log("Stored UniSwap pairs to 'uniPairs.json'.");
   } catch (error) {
     console.error(`Error storing UniSwap pairs: ${error.message}`);
