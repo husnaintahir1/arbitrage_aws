@@ -12,33 +12,33 @@ async function fetchAndStorePairs(start = 0) {
   let sushiPairs = [];
   let uniPairs = [];
   let errorCount = 0;
-  while (nextStart !== null) {
-    try {
-      const sushiBatch = await getPairs(
-        sushiFactoryAddress,
-        require("../../abis/eth-sushi-factory-abi.json"),
-        "sushiswap",
-        nextStart,
-      );
-      sushiPairs = [...sushiPairs, ...sushiBatch.pairs];
-      nextStart = sushiBatch.nextStart;
-      console.log(`Fetched ${sushiPairs.length} SushiSwap pairs.`);
-    } catch (error) {
-      errorCount++;
-      console.error(`Error fetching SushiSwap pairs (Attempt ${errorCount}): ${error.message}`);
-      if (errorCount >= 3) {
-        console.error("Reached max retry attempts. Exiting.");
-        break;
-      }
-    }
-  }
+  // while (nextStart !== null) {
+  //   try {
+  //     const sushiBatch = await getPairs(
+  //       sushiFactoryAddress,
+  //       require("../../abis/eth-sushi-factory-abi.json"),
+  //       "sushiswap",
+  //       nextStart,
+  //     );
+  //     sushiPairs = [...sushiPairs, ...sushiBatch.pairs];
+  //     nextStart = sushiBatch.nextStart;
+  //     console.log(`Fetched ${sushiPairs.length} SushiSwap pairs.`);
+  //   } catch (error) {
+  //     errorCount++;
+  //     console.error(`Error fetching SushiSwap pairs (Attempt ${errorCount}): ${error.message}`);
+  //     if (errorCount >= 3) {
+  //       console.error("Reached max retry attempts. Exiting.");
+  //       break;
+  //     }
+  //   }
+  // }
 
-  try {
-    await writeJson(sushiPath, sushiPairs,{ flag: "w", spaces: 2 });
-    console.log("Stored SushiSwap pairs to 'SushiPairs.json'.");
-  } catch (error) {
-    console.error(`Error storing SushiSwap pairs: ${error.message}`);
-  }
+  // try {
+  //   await writeJson(sushiPath, sushiPairs,{ flag: "w", spaces: 2 });
+  //   console.log("Stored SushiSwap pairs to 'SushiPairs.json'.");
+  // } catch (error) {
+  //   console.error(`Error storing SushiSwap pairs: ${error.message}`);
+  // }
   
 
   nextStart = 0;
