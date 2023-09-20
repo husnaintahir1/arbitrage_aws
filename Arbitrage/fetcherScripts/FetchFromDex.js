@@ -12,6 +12,37 @@ async function fetchAndStorePairs(start = 0) {
   let sushiPairs = [];
   let uniPairs = [];
   let errorCount = 0;
+  while (nextStart !== null) {
+    try {
+      const sushiBatch = await getPairs(
+        sushiFactoryAddress,
+        require("../../abis/eth-sushi-factory-abi.json"),
+        "sushiswap",
+        nextStart,
+      );
+      sushiPairs = [...sushiPairs, ...sushiBatch.pairs];
+      nextStart = sushiBatch.nextStart;
+      console.log(`Fetched ${sushiPairs.length} SushiSwap pairs.`);
+    } catch (error) {
+      errorCount++;
+      console.error(`Error fetching SushiSwap pairs (Attempt ${errorCount}): ${error.message}`);
+      if (errorCount >= 3) {
+        console.error("Reached max retry attempts. Exiting.");
+        break;
+      }
+    }
+  }
+
+  try {
+    await writeJson(sushiPath, sushiPairs);
+    console.log("Stored SushiSwap pairs to 'SushiPairs.json'.");
+  } catch (error) {
+    console.error(`Error storing SushiSwap pairs: ${error.message}`);
+  }
+  
+
+  nextStart = 0;
+  errorCount = 0;
 
   while (nextStart !== null) {
     try {
@@ -40,37 +71,6 @@ async function fetchAndStorePairs(start = 0) {
     console.log("Stored UniSwap pairs to 'uniPairs.json'.");
   } catch (error) {
     console.error(`Error storing UniSwap pairs: ${error.message}`);
-  }
-
-  nextStart = 0;
-  errorCount = 0;
-
-  while (nextStart !== null) {
-    try {
-      const sushiBatch = await getPairs(
-        sushiFactoryAddress,
-        require("../../abis/eth-sushi-factory-abi.json"),
-        "sushiswap",
-        nextStart,
-      );
-      sushiPairs = [...sushiPairs, ...sushiBatch.pairs];
-      nextStart = sushiBatch.nextStart;
-      console.log(`Fetched ${sushiPairs.length} SushiSwap pairs.`);
-    } catch (error) {
-      errorCount++;
-      console.error(`Error fetching SushiSwap pairs (Attempt ${errorCount}): ${error.message}`);
-      if (errorCount >= 3) {
-        console.error("Reached max retry attempts. Exiting.");
-        break;
-      }
-    }
-  }
-
-  try {
-    await writeJson(sushiPath, sushiPairs);
-    console.log("Stored SushiSwap pairs to 'SushiPairs.json'.");
-  } catch (error) {
-    console.error(`Error storing SushiSwap pairs: ${error.message}`);
   }
 
   load.stop();
