@@ -16,9 +16,9 @@ async function getPairs(
   factoryABI,
   dex,
   batchStart = 0,
-  batchSize = 200,
+  batchSize = 100,
   maxIndex = Infinity,
-  maxRetries = 8,
+  maxRetries = 20,
   retryDelay = 10000
 ) {
   let retries = 0;
