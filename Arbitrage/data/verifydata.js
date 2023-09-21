@@ -1,1 +1,1 @@
-console.log(require("./sushiPairs.json").length)
+console.log(require("./uniPairs.json").length)

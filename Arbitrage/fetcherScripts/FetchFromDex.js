@@ -1,4 +1,4 @@
-const { writeJson, readJson } = require("fs-extra");
+const { writeJson, readJson, pathExists, readFile } = require("fs-extra");
 const loading = require("loading-cli");
 const { groupPairsAndOverlapped, getPairs } = require("../utils/utils");
 const sushiFactoryAddress = "0xC0AEe478e3658e2610c5F7A4A2E1777cE9e4f2Ac";
@@ -6,7 +6,43 @@ const uniFactoryAddress = "0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f";
 const path = require('path');
 const uniPath = path.join(__dirname, '..', 'data', 'uniPairs.json');
 const sushiPath = path.join(__dirname, '..', 'data', 'sushiPairs.json');
-async function fetchAndStorePairs(start = 0) {
+
+async function appendToJsonFile(filePath, data) {
+  try {
+    let existingData = [];
+
+    // Check if the file exists
+    const fileExists = await pathExists(filePath);
+
+    if (fileExists) {
+      try {
+        // Attempt to read existing data from the file
+        const fileContents = await readFile(filePath, "utf-8");
+        existingData = JSON.parse(fileContents);
+        
+        // Check if existing data is an array; if not, initialize as an empty array
+        if (!Array.isArray(existingData)) {
+          existingData = [];
+        }
+      } catch (err) {
+        console.warn(`Error reading existing JSON data from '${filePath}': ${err.message}`);
+      }
+    } else {
+      console.warn(`The file '${filePath}' doesn't exist. Creating a new file.`);
+    }
+
+    // Combine the existing data with the new data
+    const newData = [...existingData, ...data];
+
+    // Write the combined data back to the file
+    await writeJson(filePath, newData, { spaces: 2 });
+
+    console.log(`Appended ${data.length} items to '${filePath}'.`);
+  } catch (error) {
+    console.error(`Error appending data to JSON file: ${error.message}`);
+  }
+}
+async function fetchAndStorePairs(start = 0,batchSize=30000) {
   const load = loading("Fetching pairs...").start();
   let nextStart = start; // Start from the specified index (0 by default)
   let sushiPairs = [];
@@ -50,10 +86,19 @@ async function fetchAndStorePairs(start = 0) {
         uniFactoryAddress,
         require("../../abis/eth-uni-factory-abi.json"),
         "uniswap",
-        nextStart,
-        
+        nextStart
       );
+
       uniPairs = [...uniPairs, ...uniBatch.pairs];
+
+      // Check if uniPairs array has reached the batchSize
+      if (uniPairs.length >= batchSize) {
+        // Write the batch to the JSON file
+        const batchToWrite = uniPairs.splice(0, batchSize);
+        await appendToJsonFile(uniPath, batchToWrite);
+        console.log(`Stored ${batchToWrite.length} UniSwap pairs to 'uniPairs.json'.`);
+      }
+
       nextStart = uniBatch.nextStart;
       console.log(`Fetched ${uniPairs.length} UniSwap pairs.`);
     } catch (error) {
@@ -66,11 +111,10 @@ async function fetchAndStorePairs(start = 0) {
     }
   }
 
-  try {
-    await writeJson(uniPath, uniPairs,{ flag: "w", spaces: 2 });
-    console.log("Stored UniSwap pairs to 'uniPairs.json'.");
-  } catch (error) {
-    console.error(`Error storing UniSwap pairs: ${error.message}`);
+  // After the loop, check if there are any remaining pairs in uniPairs
+  if (uniPairs.length > 0) {
+    await appendToJsonFile(uniPath, uniPairs);
+    console.log(`Stored ${uniPairs.length} remaining UniSwap pairs to 'uniPairs.json'.`);
   }
 
   load.stop();
