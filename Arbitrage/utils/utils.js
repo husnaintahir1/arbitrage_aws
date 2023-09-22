@@ -16,7 +16,7 @@ async function getPairs(
   factoryABI,
   dex,
   batchStart = 0,
-  batchSize = 100,
+  batchSize = 50,
   maxIndex = Infinity,
   maxRetries = 20,
   retryDelay = 10000
