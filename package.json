@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "cross-env AWS_ACCESS_KEY_ID=AKIAV2JQS5PSUKAE6N6W AWS_SECRET_ACCESS_KEY=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 AMB_HTTP_ENDPOINT=https://nd-vurtw2jbebfh7c5liahiro4oei.ethereum.managedblockchain.us-east-1.amazonaws.com node Arbitrage/fetcherScripts/FetchFromDex.js",
+    "start": "cross-env AWS_ACCESS_KEY_ID=AKIAV2JQS5PSUKAE6N6W AWS_SECRET_ACCESS_KEY=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 AMB_HTTP_ENDPOINT=https://nd-vurtw2jbebfh7c5liahiro4oei.ethereum.managedblockchain.us-east-1.amazonaws.com node --max-old-space-size=4096 Arbitrage/fetcherScripts/FetchFromDex.js",
     "arb":"cross-env AWS_ACCESS_KEY_ID=AKIAV2JQS5PSUKAE6N6W AWS_SECRET_ACCESS_KEY=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 AMB_HTTP_ENDPOINT=https://nd-vurtw2jbebfh7c5liahiro4oei.ethereum.managedblockchain.us-east-1.amazonaws.com node listeners.js"
   },
   "keywords": [],
