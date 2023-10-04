@@ -1,8 +1,9 @@
 // Import required modules
 const cron = require('node-cron'); // Import 'node-cron' module for scheduling tasks
-const data = require("./Arbitrage/data/data_with_liq_over_5000").filter(x=>{
-  return !x[0].swapped
-})
+const data = require("./Arbitrage/data/data_with_liq_over_5000")
+// .filter(x=>{
+//   return !x[0].swapped
+// })
 console.log(data.length)
 // .filter(x=>{
 //   return x[0].pairSymbol.includes("DPI")
