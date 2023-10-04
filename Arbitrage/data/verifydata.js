@@ -1,4 +1,4 @@
-console.log(require("./uniPairs.json").length)
+console.log(require("./Fine_data_without_liquidity.json").length)
 
 // async function fetchAndStorePairs(start = 0, batchSize = 3000) {
 //     const load = loading("Fetching pairs...").start();

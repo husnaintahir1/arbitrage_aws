@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "cross-env AWS_ACCESS_KEY_ID=AKIAV2JQS5PSUKAE6N6W AWS_SECRET_ACCESS_KEY=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 AMB_HTTP_ENDPOINT=https://nd-vurtw2jbebfh7c5liahiro4oei.ethereum.managedblockchain.us-east-1.amazonaws.com node --max-old-space-size=4096 Arbitrage/fetcherScripts/FetchFromDex.js",
-    "arb":"cross-env AWS_ACCESS_KEY_ID=AKIAV2JQS5PSUKAE6N6W AWS_SECRET_ACCESS_KEY=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 AMB_HTTP_ENDPOINT=https://nd-vurtw2jbebfh7c5liahiro4oei.ethereum.managedblockchain.us-east-1.amazonaws.com node listeners.js"
+    "arb": "cross-env AWS_ACCESS_KEY_ID=AKIAV2JQS5PSUKAE6N6W AWS_SECRET_ACCESS_KEY=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 AMB_HTTP_ENDPOINT=https://nd-vurtw2jbebfh7c5liahiro4oei.ethereum.managedblockchain.us-east-1.amazonaws.com node listeners.js"
   },
   "keywords": [],
   "author": "",
@@ -20,6 +20,7 @@
     "bignumber.js": "^9.1.1",
     "body-parser": "^1.20.2",
     "bottleneck": "^2.19.5",
+    "chalk": "^5.3.0",
     "circular-json": "^0.5.9",
     "cors": "^2.8.5",
     "cross-env": "^7.0.3",
@@ -36,6 +37,7 @@
     "sequelize": "^6.28.0",
     "uuid": "^9.0.0",
     "web3": "^1.8.2",
-    "web3-utils": "^1.8.2"
+    "web3-utils": "^1.8.2",
+    "winston": "^3.10.0"
   }
 }

@@ -3,14 +3,14 @@ const RPC_URL = "https://mainnet.infura.io/v3/18a978ab26804ca5a6bd3dfce90a2099";
 const AWSHttpProvider = require("@aws/web3-http-provider");
 const endpoint = process.env.AMB_HTTP_ENDPOINT;
 const path = require("path");
-const { writeJson } = require("fs-extra");
 const overlappedPath = path.join(
   __dirname,
   "..",
   "data",
   "Fine_data_without_liquidity.json"
-);
-
+  );
+  
+  const { writeJson } = require("fs-extra");
 async function getPairs(
   factoryAddress,
   factoryABI,
@@ -258,5 +258,6 @@ function writeOverlappedPairs(data) {
       console.error("Error writing overlapping pairs data:", error);
     });
 }
+
 
 module.exports = { getPairs, groupPairsAndOverlapped };

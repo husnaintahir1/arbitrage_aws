@@ -34,9 +34,11 @@ const dexRouters = {
  * @returns {array} - An array containing the input amount and output amount for the swap.
  */
 async function getAmountsOut(pair) {
+  // Combine your hard-coded number with a string of 'decimal' number of zeros
+  const valueWithZeros = '5' + '0'.repeat(pair.tokenA.decimal);
 
   const data = await dexRouters[pair.dex].methods
-    .getAmountsOut(pair.tokenA.decimalValue+"0000", [
+    .getAmountsOut(valueWithZeros, [
       pair.tokenA.address,
       pair.tokenB.address,
     ])
@@ -75,7 +77,15 @@ async function opportunity(pair1, pair2) {
      // Calculate the potential profit from the Sushiswap to Quickswap trade
      let result = (amountOut2 / Math.pow(10, pair1.tokenA.decimal)) - (amountIn / Math.pow(10, pair1.tokenA.decimal));
    
-     // Simulate the reverse trade on Sushiswap with the output amount from the simulated Quickswap trade
+    //  console.log(
+    //   pair1.pairSymbol,
+    //   amountIn / Math.pow(10, pair1.tokenA.decimal),
+    //   amountOut / Math.pow(10, pair1.tokenB.decimal),
+    //   amountIn2 / Math.pow(10, pair1.tokenB.decimal),
+    //   amountOut2 / Math.pow(10, pair1.tokenA.decimal),
+    //   result,
+    //   )
+    //  // Simulate the reverse trade on Sushiswap with the output amount from the simulated Quickswap trade
      let [amountIn3, amountOut3] = await getAmountsOut(pair2);
      let [amountIn4, amountOut4] = await getAmountsOutFromPreviousPair(pair1, amountOut3);
    
@@ -93,6 +103,8 @@ async function opportunity(pair1, pair2) {
      let baseReturn = {
       id:uuidv4(),
        pair: pair1.pairSymbol,
+       decimalA:pair1.tokenA.decimal,
+       decimalB:pair1.tokenB.decimal,
        tokenAaddress: pair1.tokenA.address,
        tokenBaddress: pair1.tokenB.address,
        tokenAInvestment:pair1.tokenA.decimalValue,
@@ -105,6 +117,10 @@ async function opportunity(pair1, pair2) {
        amountOut,
        amountIn2,
        amountOut2,
+       amountIn3,
+       amountOut3,
+       amountIn4,
+       amountOut4,
        sushiswapRouter:sushiswapRouter,
        uniswapRouter:uniswapRouter
      };
@@ -113,13 +129,13 @@ async function opportunity(pair1, pair2) {
      if (finalResult > finalReverseResult && finalResult > 0.1) {
        return {
          ...baseReturn,
-         direction: "sushiToQuick",
+         direction: "sushiToUni",
          opportunityFound: true
        };
      } else if (finalReverseResult > finalResult && finalReverseResult > 0.1) {
        return {
          ...baseReturn,
-         direction: "quickToSushi",
+         direction: "uniToSushi",
          opportunityFound: true
        };
      } else {
