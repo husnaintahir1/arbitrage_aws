@@ -12,6 +12,7 @@ const { opportunity } = require('./newOpportunity'); // Import 'opportunity' fun
 const axios = require("axios"); // Import 'axios' module for making HTTP requests
 const util = require('util');
 const fs = require('fs');
+const now = new Date();
 
 
 const logBuffer = []; // Buffer to store log data
@@ -50,7 +51,9 @@ async function processItem(item,index) {
   // console.log(index,"INDEX")
   const resp = await opportunity(item[0], item[1]);
   try {
+    const timestamp = `${now.toLocaleDateString()} ${now.toLocaleTimeString()}`;
     let simulate=`
+    Timestamp: ${timestamp}
     **********************  START  *************************\n
     =======Direction : Sushiswap to Uniswap =======\n
     Invested Token A ${resp.pair.split("/")[0]} :\x1b[32m${resp.amountIn/Math.pow(10, resp.decimalA)}\x1b[0m ==> Amount Out Token B ${resp.pair.split("/")[1]}:\x1b[32m${resp.amountOut/Math.pow(10, resp.decimalB)}\x1b[0m\n
