@@ -16,8 +16,8 @@ const now = new Date();
 
 
 const logBuffer = []; // Buffer to store log data
-const logFilename = 'Opportunity_log.txt'; // Default log file name
-const foundLogFilename = 'found-log.txt'; // Log file name for opportunity found
+const failedLog = 'failedOpportunity.txt'; // Default log file name
+const foundLogFilename = 'foundOportunity.txt'; // Log file name for opportunity found
 
 // Function to write log data to the log file
 
@@ -78,26 +78,33 @@ async function processItem(item,index) {
     
     ***********************  ENDD  **************************\n
     `;
+
     // const plainTextSimulate = simulate.replace(/\x1b\[\d+m/g, '');
       console.log(simulate);
-  writeToLog(simulate,logFilename);
+      if(true){
+        writeToLog(simulate,foundLogFilename);
+      }
+      else{
+        writeToLog(simulate,failedLog);
+
+      }
 
   } catch (error) {
     console.log(error)
   }
 
-  if (resp.opportunityFound === true) {
-    writeToLog(resp,foundLogFilename);
+  // if (resp.opportunityFound === true) {
+  //   writeToLog(resp,foundLogFilename);
   
-    axios
-      .post('http://localhost:8000/', resp)
-      .then((response) => {
-        // console.log(response.data.data);
-      })
-      .catch((error) => {
-        // console.log(error.message);
-      });
-  }
+  //   axios
+  //     .post('http://localhost:8000/', resp)
+  //     .then((response) => {
+  //       // console.log(response.data.data);
+  //     })
+  //     .catch((error) => {
+  //       // console.log(error.message);
+  //     });
+  // }
 }
 
 /**

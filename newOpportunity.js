@@ -35,7 +35,7 @@ const dexRouters = {
  */
 async function getAmountsOut(pair) {
   // Combine your hard-coded number with a string of 'decimal' number of zeros
-  const valueWithZeros = '5' + '0'.repeat(pair.tokenA.decimal);
+  const valueWithZeros = '10' + '0'.repeat(pair.tokenA.decimal);
 
   const data = await dexRouters[pair.dex].methods
     .getAmountsOut(valueWithZeros, [
