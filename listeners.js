@@ -81,7 +81,7 @@ async function processItem(item,index) {
 
     // const plainTextSimulate = simulate.replace(/\x1b\[\d+m/g, '');
       console.log(simulate);
-      if(true){
+      if(resp.opportunityFound){
         writeToLog(simulate,foundLogFilename);
       }
       else{
